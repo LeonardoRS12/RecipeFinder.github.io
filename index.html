@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recipes finder</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="header">
+    <header>
+        <nav class="nav-bar">
+            <a>
+              <img class="logo" src="/Images/Logo.png">
+
+            <ul class="nav-links">
+              <li class="link"><a href="#introduction">Home</a></li>
+              <li class="link"><a href="https://github.com/LeonardoRS12">About me</a></li>
+              <li class="link"><a href="#recipe_finder">Recipe Finder</a></li>
+            </ul>
+
+            </a>
+
+        </nav>
+    </header>
+    </div>
+
+    <div class="introduction">
+    <h1>Welcome to the definitive recipe search engine</h1>
+
+    <p>On this website you can find a list of different recipes 
+     that you can prepare using different search terms.</p>
+
+     <p>If you want to use the recipe search engine, you can use the box below this 
+        text to start searching for the recipes you want.</p>
+    </div>
+
+    <div class="recipe_finder">
+    <h2>Recipe Finder</h2>
+    <p>Please enter some ingredient.</p>
+    </div>
+
+    <div class="container">
+      <h1>Recipe Finder</h1>
+      <form>
+          <input type="text" id="search" placeholder="Enter ingredients">
+          <button type="submit" id="submit" class="btn">Search</button>
+      </form>
+      <div id="results"></div>
+  </div>
+
+  <script src="app.js"></script>
+  </body>
+</html>
